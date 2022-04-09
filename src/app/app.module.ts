@@ -7,6 +7,7 @@ import { DemoComponent } from './Component/Demo/Demo.component';
 import { BaiTapLayoutModule } from './Component/BaiTapLayout/BaiTapLayout.module';
 import { DataBindingModule } from './DataBinding/DataBinding.module';
 import { DirectiveModule } from './Directive/Directive.module';
+import { PropsModule } from './Props/Props.module';
 
 
 @NgModule({
@@ -19,7 +20,8 @@ import { DirectiveModule } from './Directive/Directive.module';
     BrowserModule, // Nơi chửa các module khác muốn sử dụng cho module này
     BaiTapLayoutModule, // module
     DataBindingModule,
-    DirectiveModule
+    DirectiveModule,
+    PropsModule
   ],
   providers: [], // Nơi import các service
   bootstrap: [AppComponent] // Các thẻ component muốn sử dụng trong index.html
